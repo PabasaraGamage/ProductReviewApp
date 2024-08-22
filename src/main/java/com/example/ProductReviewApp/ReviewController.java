@@ -8,6 +8,6 @@ public class ReviewController {
 
     @GetMapping("/")
     public String home() {
-        return "Welcome to the Product Review App!";
+        return "Welcome to the Product Review App! This is the version 2.0";
     }
 }
